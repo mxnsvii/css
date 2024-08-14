@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="health.html/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            /* border: 2px solid black; */
+        }
+        .logo{
+            background-image:url("logo.jpg");
+            width: 79px;
+            height: 40px;
+        }
+        .logo{
+            margin-right: 20%;
+        }
+        .bg{
+            background-image: url("dffd-min.jpg");
+            width: 1520px;
+            height: 1080px;
+            
+        }
+        .bg{
+            background-position: 50% 0%;
+            
+            align-items: cente
+        
+        }
+        h1{
+            color: #C71E38;
+            margin-left: 79px;
+            margin-top:79px;
+        }
+        h2{
+            color: black;
+            margin-left: 79px;
+            margin-top: 79px;
+
+        }
+        .ani{
+            position: relative;
+            animation: mymove 5s;
+        }
+        @keyframes mymove {
+            From {left: 0px;}
+            to { left: 200px;}
+
+            
+        }
+       
+         
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            /* transform: 1s ease;
+            object-fit: cover; */
+           }
+       .img1{
+        background-image: url("Rectangle\ 1\ \(1\).png");
+        width: 290px;
+        height: 220px;
+        background-size: cover;
+        margin: 10px;
+        
+       }
+       .img2{
+        background-image: url("ice2.jpg");
+        width: 290px;
+        height: 220px;
+        background-size: cover;
+        margin: 10px;
+        margin-bottom: 20px;
+        transform: 2s ease;
+        object-fit: cover;
+        
+        
+       }
+       .img3{
+        background-image: url("ice3.jpg");
+        width: 290px;
+        height: 220px;
+        background-size: cover;
+        margin: 10px;
+        
+       }
+       .img4{
+        background-image: url("ice4.jpg");
+        width: 290px;
+        height: 220px;
+        background-size: cover;
+        margin: 10px;
+        
+       }
+       .img5{
+        background-image: url("ice5.jpg");
+        width: 290px;
+        height: 220px;
+        background-size: cover;
+        margin: 10px;
+       }
+       .img6{
+        background-image: url("ice6.jpg");
+        width: 290px;
+        height: 220px;
+        background-size: cover;
+        margin: 10px;
+       }
+       .link{
+        margin-left: 20%;
+        margin-top: 6%;
+       }
+       .flex-container :hover{
+        transform: scale(1.1);  
+        animation-timing-function: calc(ease);
+       }
+      .bg2{
+        background-color: #555272;
+        height:600px;
+        width: 1520px;
+    
+      }
+
+      .bg2 p{
+        margin:6%;
+        margin-top: 2%;
+      }
+      a{
+        text-decoration:underline;
+      }
+      .classic{
+       background-image: url("delicious-ice-cream_144627-19528.jpg");
+        border-radius: 50%;
+        width: 248px;
+        height: 250px;
+        size-adjust:2px;
+        margin-left: 30%;
+        margin-top: 1%;
+        float: right;
+        margin: 2%;
+        animation: spinanimate 3s ease-in-out 0s;
+      }
+      @keyframes spinanimate {
+        from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+      
+
+      }
+      .about{
+        margin-top: 30%;
+        float: right;
+        margin-right: 10%;
+      }
+      .about h2 {
+        color: white;
+        margin: 5%;
+        padding-left: 10%;
+        margin-bottom: 3%;
+        
+      }
+      .about p{
+        /*
+        align-self:center;
+        margin-top: 5%; */
+        display: block;
+       margin-block-start: 1em;
+       margin-block-end: 1em;
+       margin-inline-start: 0px;
+       margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: white;
+}
+        
+      
+      .about2{
+        float: right;
+        position: relative;
+    
+      }
+
+      
+      .vegan{
+        background-image: url("ice-cream_144627-17284.jpg");
+        border-radius: 50%;
+        width: 248px;
+        height: 250px;
+        size-adjust:2px;
+        margin-left: 40%;
+        margin-top: 2%;
+        animation: spinanimate 3s ease-in-out 0s;
+      }
+      @keyframes spinanimate {
+        from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+      }
+      .what{
+        top: 20%;
+        
+      }
+      .bg3{
+        background-color: #E0E5EB;
+        width: 1520px;
+        height: 2600px;
+      }
+      .round{
+        width: 100px;
+        height: 100px;
+        background-color: #C71E38;
+        border-radius: 50%;
+        /* margin-left: 5%; */
+        margin-left:6%;
+        margin-top: 8%;
+        
+      }
+      .what{
+        animation:mani 5s;
+
+      }
+        @keyframes mani {
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+
+        }      
+        .round{
+        animation:mani 5s;
+
+      }
+        @keyframes mani {
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+
+        }      
+        .cream{
+          width: 350px;
+          height: 500px;
+          background-color: white;
+          margin-left: 5%;
+        }
+        .vanilla{
+        animation:mani 5s;
+
+      }
+        @keyframes mani {
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+            
+        }
+        .cream p{
+           margin-left: 14%;
+           margin-top: 5%;
+          
+        }
+        .imagefrom{
+          margin-left:14% ;
+        }
+        .learnmore {
+          margin-left: 20%;
+          margin-top: 5%;
+        }
+        .button {
+          background-color: rgb(119, 52, 52);
+          border: none;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 20px;
+          margin: 4px 2px;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          padding: 16px 32px;
+        }
+        .button :hover {
+          background-color: #555555;
+          color: white;
+        }
+        .column{
+          background-image: url("Rectangle\ 1.jpg");
+          width: 400px;
+          height: 500px;
+          /* margin-left: 35%; */
+          float: right;
+          /* bottom: 20%; */
+          direction: table;
+          clear: both;
+          content: "";
+          /* bottom: %; */
+          padding-top:5%;
+          margin-right: 31.5%;
+          margin-top: 6.5%;
+          border-radius:0px 0px 40%;
+        }
+        .round2{
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          background-color: white;
+          margin-left: 75%;
+          margin-top: 84%;
+          
+        }
+       
+        
+        .box1{
+          background-color: #555272;
+          height: 700px;
+          width: 200px;
+          margin-left: 40%;
+          margin-top: 20%;
+          
+        }
+        .box3{
+          background-color: #C71E38;
+          width: 300px;
+          height: 250px;
+          margin-left: 70%;
+          
+          
+        }
+        .box3 h1{
+          color: #E0E5EB;
+        
+        }
+        .box3 h3 {
+          color: #E0E5EB;
+          margin-left: 18%;
+          
+        }
+        .box3 p{
+          margin-left: 18%;
+          margin-top: 10%;
+        }
+        .box4{
+          background-color: white;
+          width: 400px;
+          height: 400px;
+          margin-top: 50%;
+        }
+        .box4 h1{
+          color: black;
+        }
+        .box2{
+          background-image: url("Rectangle\ 1\ \(2\).png");
+          width: 350px;
+          height:295px;
+          margin-left: 15%;
+        bottom: 30%;
+          float:left;
+          
+        }
+        .order{
+          margin-left: 25%;
+          margin-top: 15%;
+        }
+        .order h1{
+          color: black;
+        }
+        .order p {
+          font-size:-20px;
+            margin-top: 5%;
+        }
+        .order h1::after{
+          content: "";
+          position: absolute;
+          width: 100px;
+          height: 4px;
+          display: block;
+          margin: 0 auto;
+          background-color:#C71E38;
+          margin-top: 2%;
+          margin-left: 8%;
+        }
+        .call h3{
+          margin-left: 16%;
+          margin-bottom: 10%;
+        }
+        .conus p{
+          margin-left: 7%;
+        }
+        .in{
+          background-color: #555272;
+          width:480px;
+          height: 330px;
+          margin-right: 25%;
+          float: right;
+      
+          
+        }
+        .conus h1{
+          font-size:-7em;
+        }
+        .conus h4{
+          color: white;
+          margin-top: 15%;
+          margin-left: 2%;
+        }
+        .conus button{
+            background-color: red;
+            color: black;
+        }
+        .conus input {
+                margin-left: 8%;
+                margin-top: 10%;
+              
+        }
+        .backgrond{
+          background-color: #333333;
+          width: 1490px;
+          height: 300px;
+        }
+        .backgrond h5{
+          color: white;
+          margin-left: 30%;
+        }
+        .backgrond a {
+          margin-left: 30%;
+          text-decoration: none;
+          color: #C71E38;
+          font-size: large;
+          /* background-color: #555272; */
+          /* transition: ease 5s; */
+        }
+      
+     
+        
+    </style>
+</head>
+<body>
+    <div class="navbar"> 
+       
+        <div class="logo" ></div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" >
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+          <div class="bg " >
+            <div class="ani">
+            <h1>Ice Cream Shop</h1>
+            <h2>Ice cream menu</h2>
+        </div>
+        
+            <div class="flex-container">    
+            <div class="img1"></div>    
+            <div class="img2"></div>
+            <div class="img3"></div>
+            <div class="img4"></div>
+            <div class="img5"></div>
+            <div class="img6"></div>
+        </div class ="freepik">
+            <div class="link">Images From <a href="#">freepik</a></div>
+        </div>
+        <!-- /* page 2 */ -->
+         <div class="bg2" >
+      <div class="classic"> </div>
+            <div class="about">
+                <h2>Vegan</h2>
+                <p>Sample text. Click to select the text box. <br>
+                    Click again or double click <br>
+                     to start editing the text.</p>
+            </div>
+       <div class="vegan"> </div>
+       <div class="about2">
+        <!-- <h2>Classic<  -->
+       
+       </div>
+                        
+       <div class="what">
+        <h1>What We Do</h1>
+        <p>Paragraph. Lorem ipsum <br>
+             dolor sit amet, <br>
+            consectetur adipiscing elit. <br> 
+            Curabitur id suscipit ex. <br>
+             Suspendisse rhoncus laoreet purus <br> 
+              Phasellus sed efficitur dolor, <br>
+              et ultricies sapien.</p>
+       </div>
+            </div>
+
+              <!-- box3.      -->
+               <div class="bg3">
+                 <div class="round"></div>
+                 <div class="column">
+                  <div class="round2"></div>
+                 </div>
+                      
+                    <div class="cream">
+                      <h1 class="vanilla">Vanilla ice-cream</h1>
+                      <p>Vitae congue mauris rhoncus <br>
+                         aenean vel elit scelerisque. <br>
+                        Consequat nisl vel pretium <br>
+                         lectus quam id leo in vitae. <br>
+                         Dictum sit amet justo donec <br>
+                          enim diam vulputate. <br>
+                         Sociis natoque penatibus <br>
+                         et magnis dis parturient. <br>
+                         Molestie ac feugiat sed <br>
+                          lectus vestibulum mattis.</p>
+                          <div class="imagefrom">Image fFrom <a href="#">Freepik</a></div>
+                          <div class="learnmore">
+                            <button class="button">Leran more</button>
+                          </div>
+                    </div>
+                  
+
+                    <div class="box">
+                
+                    <div class="box1">
+                      
+                      <div class="box3">
+
+                        <h1>online shop</h1>
+                        <h3>Ice cream <br>
+                           delivery to <br>
+                            all 50 states</h3>
+                            <p>IMAGE FROM <a href="#">Freepik</a></p>
+                    
+
+                    <div class="box4">
+                      
+                      <h1>Ice cream & vegan ice cream</h1>
+                      <p>Massa ultricies mi quis hendrerit. <br> 
+                        Ac ut consequat semper viverra nam. <br>
+                        Libero id faucibus nisl tincidunt <br>
+                         eget nullam non nisi est. <br>
+                         Arcu odio ut sem nulla. <br>
+                          Amet tellus cras adipiscing enim. <br>
+                          Et magnis dis parturient montes. <br>
+                         Imperdiet sed euismod nisi porta lorem mollis.</p>
+                         <p>IMAGE FROM <a href="#">Freepik</a></p>
+                        
+                    </div>
+                  
+                      
+                      </div>
+                    </div>
+                    
+                    <!-- <div class="box2"></div> -->
+                    
+                    
+                  </div>
+                   
+                  <div class="order">
+                    <h1>Order Preparation</h1>
+                    
+                    <p>Pick-up orders made before 4 p.m. can be ready for SAME DAY PICK UP. <br>
+                       Please indicate your preferred pick-up date and time prior to checking out. <br>
+                        We will send a notification as soon as your order is ready for pick up. 
+                    </p>
+                    <div class="call">
+                      <i class="fa-solid fa-phone"></i>
+                      <h3>9510920035</h3>
+                    </div>
+                    
+                  </div>
+                    <div class="conus">
+                      <div class="in">
+                            <h4>Subscribe and never miss out on finds & deals delivered to your inbox.</h4>
+                            <input type="text" placeholder="Inter your Name"> 
+                            <button>SUBMIT</button>
+                      </div>
+                      <h1>Contact Us</h1>
+                      <p>New York, 4140 Parker Rd. <br> Allentown,  <br>
+                        New Mexico 31134</p>
+            
+                    </div>
+                    
+               </div>
+
+               <footer>
+                <div class="backgrond">
+                    <h5>Sample text. Click to select the text box. <br> Click again or double click to start editing the text.</h5>
+                    <a href="https://github.com/mxnsvii">https://github.com/mxnsvii</a>
+                </div>
+              </footer>
+    </div>
+  
+  
+</body>
+</html>..
